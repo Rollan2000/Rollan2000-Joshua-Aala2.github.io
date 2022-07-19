@@ -93,25 +93,33 @@ html {
   ADD NOTES HERE
   /*------------------------------------------------------------------------------------------ */
   
-  #features table {
-  display:flex;
+#features table,
+#options table {
+  display: flex;
   justify-content: center;
-  padding-bottom:60px;
-  
-  }
-  
-  #features h1 {
+}
+
+#features h1,
+#options h1 {
   align-items: center;
-  }
-  
-  #features td  {
-  font-size: medium;  
-  padding-bottom:60px;
-  padding-right:100px;
+}
+
+#features td {
+  font-size: medium;
+  padding-bottom: 60px;
+  padding-right: 100px;
   text-align: left;
   text-align: center;
-  
-  }
+}
+
+#options td {
+  font-size: medium;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  text-align: left;
+  text-align: center;
+}
+
 
   /*-------------------------------------- TUTORIALS----------------------------------------- */
 
