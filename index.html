@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en" id="home">
+
+<head>
+    <meta charset="utf-8">
+    <title>LightBox JQuery</title>
+    <meta name="lightbox" content="Assignment 2 MMDD159 S2022 Joshua Loreanne & Yura JQuery Lightbox ">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!---------------------------------------------------------NAV-----------------------------------------------
+*************************************************************************************************************
+ADD NOTES HERE
+------------------------------------------------------------------------------------------------------------->
+
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+                <li><a href="#example">Examples</a></li>
+                <li><a href="#moreinfo">More..</a></li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <h1>LightBox</h1>
+        </div>
+
+        <div class="main">
+
+            <!------------------------------------------------------------INTRO--------------------------------------------
+*************************************************************************************************************
+BASIC WWWWWH
+------------------------------------------------------------------------------------------------------------->
+
+            <div id="into">
+
+                <h1>Intro</h1>
+
+
+                <div class="box content">
+
+                    <p>The Lightbox library displays video and images by filling the screen and dimming out the rest of the webpage.</p>
+
+                    <p><a href="https://nsbmedia.ch/">NSB Media</a>
+                        LightBox plugins are a helpful designer & developer tool. It is a way to add media to any
+                        website. It is mobile friendly and a way to integrate single images, galleries, slide
+                        shows,videos, iframes & custom content.
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!---------------------------------------------------------FEATURES-----------------------------------------------
+*************************************************************************************************************
+ADD NOTES HERE
+------------------------------------------------------------------------------------------------------------->
+
+            <div id="features">
+
+                <h1>Features</h1>
+
+                <div class="box content">
+
+                    <table>
+
+                        <tbody>
+                            <tr>
+                                <td>    <strong>Duration</strong>   </td>
+                                <td> The time it takes for the Lightbox container and overlay to fade in and out, in
+                                    milliseconds.</td>
+                            </tr>
+
+                            <tr>
+                                <td>     <strong>Image Fade Duration</strong>  </td>
+                                <td> The time it takes for the image to fade in once loaded, in milliseconds.</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>    <strong>Album Label</strong>   </td>
+                                <td> The text displayed below the caption when viewing an image set. The default text
+                                    shows the current image number and the total number of images in the set.</td>
+                            </tr>
+
+                            <tr>
+                                <td>    <strong>Image Slider</strong>  </td>
+                                <td> An Image Slider that comprises several images displayed on a web application is
+                                    called “Slide Show” and “Carousels”. It permits you to show multiple images, videos,
+                                    or graphics on a web application. Also, adding an Image Slider to a website can
+                                    fascinate the users and capture their attention.</td>
+                            </tr>
+
+                            <tr>
+                                <td>    <strong>Disable Scrolling</strong>  </td>
+                                <td> If true, when the Lightbox is open, prevent the page from scrolling.
+                                     The overflow is hidden on the body so the settings don't overflow.</td>
+                            </tr>
+
+                            <tr>
+                                <td>  <strong>Wrap Around</strong> </td>
+                                <td> If true,When a user reaches the last image in a set, the right navigation arrow will appear
+                                    and they will be to continue moving forward which will take them back to the first
+                                    image in the set.</td>
+                            </tr>
+
+                            <tr>
+                                <td>   <strong>Show Image Number Label</strong>   </td>
+                                <td> If false, the text indicating the current image number 
+                                    and the total number of images in set (Ex. "image 2 of 4") will be hidden.</td>
+                            </tr>
+
+
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+            <!---------------------------------------------------------TUTORIAL-----------------------------------------------
+*************************************************************************************************************
+ADD NOTES HERE:
+Pictorial or Video
+------------------------------------------------------------------------------------------------------------->
+
+            <div id="tutorial">
+
+                <h1>Tutorial</h1>
+
+                <div class="box content">
+
+                    <ol>
+                        <li><a href="https://github.com/lokesh/lightbox2/releases">Build HTML & CSS</a></li>
+                        <li><a href="https://github.com/lokesh/lightbox2/releases">Download Light Box File</a></li>
+                        <li>In src folder link lightbox.css file in head tag</li>
+                        <li>Add JavaScript before closing body tag</li>
+                        <li>Load Jquery (compatible with Jquery 1.7 and up)</li>
+                        <li>If you dont have jquery load lightbox-plus-jquery.js file</li>
+                        <li>Make sure image files are linked correctly</li>
+                        <li>Add data-lightbox to enable lightbox (if it is a set attribute needs to be the same)</li>  
+                    </ol>
+                    
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!---------------------------------------------------------EXAMPLE-----------------------------------------------
+******************************************************************************************************************
+SHOW LIGHTBOX & WHAT IT DOES
+----------------------------------------------------------------------------------------------------------------->
+
+            <div id="example">
+                <h1>Example</h1>
+
+                <div class="box content">
+
+                    <div class="sigle__image">
+                        <h2>Individual Image</h2>
+                        <a href="./image/image-1.jpg" data-lightbox="forest" data-title="My caption">
+                            <img src="image/image-1.jpg" alt="W3Schools.com" width="500" height="auto">
+                        </a>
+                    </div>
+
+                    <div class="set__images">
+                        <h2>Image Set</h2>
+                        <a href="image/image-2.jpg" data-lightbox="flower">
+                            <img src="image/image-2.jpg" alt="W3Schools.com" width="300" height="auto">
+                        </a>
+
+                        <a href="image/image-3.jpg" data-lightbox="flower">
+                            <img src="image/image-3.jpg" alt="W3Schools.com" width="300" height="auto">
+                        </a>
+
+                        <a href="image/image-4.jpg" data-lightbox="flower">
+                            <img src="image/image-4.jpg" alt="W3Schools.com" width="300" height="auto">
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <hr>
+
+            <!---------------------------------------------------------MORE INFO-----------------------------------------------
+*************************************************************************************************************
+HELPFUL LINKS
+------------------------------------------------------------------------------------------------------------->
+
+            <div id="moreinfo">
+
+                <h1>More Info</h1>
+
+                <div class="box content">
+
+                    <a href="https://lokeshdhakar.com/projects/lightbox2/">Light Box 2 Official Information Page</a>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!---------------------------------------------------------FOOTER-----------------------------------------------
+*************************************************************************************************************
+ADD NOTES HERE
+------------------------------------------------------------------------------------------------------------->
+        <div class="copy">
+            <h4>&copy;MMD159 Joshua,Loreanne&Yura</h4>
+        </div>
+    </div>
+    <script src="lightbox-plus-jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
